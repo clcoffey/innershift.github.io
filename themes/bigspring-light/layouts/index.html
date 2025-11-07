@@ -1,0 +1,294 @@
+{{ define "main" }}
+
+<!-- banner -->
+{{ with .Params.banner }}
+<section class="banner">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 mx-auto text-center">
+        <h1 class="mb-3">{{ .title | markdownify }}</h1>
+        <p class="mb-4">{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <div><a href="{{ .link | safeURL }}" title="{{ .label }}" class="btn btn-primary" target="_blank">{{ .label }}</a></div>
+        {{ end }}
+        {{ end }}
+
+        {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px">{{end}}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /banner -->
+
+<!-- testimonial -->
+{{ with .Params.testimonial1 }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-9 text-center">
+        <h4 class="mb-4"><i>{{ .content | markdownify }}</i></h4>
+        <p>{{ .name | markdownify }}</p>
+        <h6>{{ .stars | markdownify }}</h6>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /testimonial -->
+
+<!-- feature -->
+{{ with .Params.feature }}
+{{ if .enable }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p class="mb-4">{{ .content | markdownify }}</p>
+      </div>
+      {{ range .feature_item }}
+      <div class="col-md-3 col-sm-6 mb-4">
+        <div class="feature-card text-center">
+          <i class="{{.icon}} mb-3"></i>
+          <h4 class="mb-2">{{ .name | title }}</h4>
+          <p>{{ .content | markdownify }}</p>
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-12 text-center">
+        <h2 class="section-title">{{ .title2 | markdownify }}</h2>
+      </div>
+      {{ range .feature_steps }}
+      <div class="col-md-9 col-sm-6 mb-4">
+        <div class="feature-card text-left mx-auto" style="display: block; align-items: center; position: relative;">
+          <i class="{{.icon}} mb-2" style="display:inline-block;"></i>
+          <h4 class="mb-2" style="display:inline-block;">{{ .name | title }}</h4>
+          <!--<p>{{ .content | markdownify }}</p> -->
+        </div>
+      </div>
+      {{ end }}
+      <div class="col-12 text-center">
+        {{ if .button.enable }}
+            {{ with .button }}
+              <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /feature -->
+
+<!-- testimonial -->
+{{ with .Params.testimonial2 }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-9 text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <h4 class="mb-4">{{ .subtitle | markdownify }}</h4>
+        <p>{{ .content | markdownify }}</p>
+        <h6>{{ .name | markdownify }}</h6>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /testimonial -->
+
+<!-- about -->
+{{ with .Params.about_me }}
+{{ if .enable }}
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+        {{ with .image }} {{ partial "image" (dict "Src" . "Alt" "About me image" "Class" "img-fluid w-100") }} {{ end }} 
+      </div>
+      <div class="col-md-6">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /about --> 
+
+<!-- call to action -->
+{{ with .Params.call_to_action_newsletter }}
+{{ if .enable }}
+<section class="section">
+  <div class="container section shadow rounded-lg px-4">
+    <div class="row align-items-center justify-content-center text-center text-md-left">
+      <div class="col-lg-9 col-md-6">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <h3 class="mb-4">{{ .subtitle | markdownify }}</h3>
+        {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
+        <form method="POST" class="row g-4" action="https://formspree.io/f/mpwyyeyn">
+          <div class="col-lg-6">
+            <input class="form-control shadow-none" type="text" name="first_name" placeholder="{{ i18n `fname`}}" required>
+          </div>
+          <div class="col-lg-6">
+            <input class="form-control shadow-none" type="email" name="email_address" placeholder="{{i18n `email`}}" required>
+          </div>
+          <div class="col-lg-12">
+            <button class="btn btn-primary btn-sm mt-2" type="submit">Subscribe to The InnerShift</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /call to action -->
+
+
+<!-- call to action -->
+{{ with .Params.call_to_action }}
+{{ if .enable }}
+<section class="section bg-light">
+    <div class="row align-items-center justify-content-center text-center text-md-left">
+      <div class="col-lg-9 col-md-6">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary" target="_blank">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /call to action -->
+
+<!-- call to action not used -->
+{{ with .Params.call_to_action1 }}
+{{ if .enable }}
+<section class="section">
+  <div class="container section shadow rounded-lg px-4">
+    <div class="row align-items-center justify-content-center text-center text-md-left">
+      <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+        {{ partial "image" (dict "Src" .image "Alt" "call to action image" "Class" "img-fluid w-100") }}
+      </div>
+      <div class="col-lg-5 col-md-6">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <h3 class="mb-4">{{ .subtitle | markdownify }}</h3>
+        {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+<!-- /call to action -->
+
+<!-- service not used -->
+{{ with .Params.service }}
+{{ if .enable }}
+{{ range $i,$p := .service_item }}
+{{if modBool $i 2}}
+<section class="section">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 order-2 order-md-1">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn-link">{{ .label }} <i
+            class="fas fa-arrow-right"></i></a>
+        {{ end }}
+        {{ end }}
+      </div>
+      <div class="col-md-6 order-1 order-md-2 mb-4 mb-md-0">
+        <div class="swiper testimonial-slider">
+            <div {{if gt (len .images) 1}}class="swiper-wrapper" {{end}}>
+              {{ range .images }}
+              <div class="swiper-slide">
+                {{ partial "image.html" (dict "Src" . "Alt" "Image" ) }}
+              </div>
+              {{ end }}
+            </div>
+          <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ else }}
+<section class="section bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-4 mb-md-0">
+        <div class="swiper testimonial-slider">
+          <div {{if gt (len .images) 1}}class="swiper-wrapper" {{end}}>
+            {{ range .images }}
+            <div class="swiper-slide">
+              {{ partial "image.html" (dict "Src" . "Alt" "Image" ) }}
+            </div>
+            {{ end }}
+          </div>
+        <div class="testimonial-slider-pagination mt-9 flex items-center justify-center text-center"></div>
+      </div>
+      </div>
+      <div class="col-md-6">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+        <p>{{ .content | markdownify }}</p>
+        {{ if .button.enable }}
+        {{ with .button }}
+        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn-link">{{ .label }} <i
+            class="fas fa-arrow-right"></i></a>
+        {{ end }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+{{ end }}
+<!-- /service -->
+
+<!-- screenshot not used -->
+{{ with .Params.screenshot }}
+{{ if .enable }}
+<section class="section pb-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 mx-auto text-center">
+        <h2 class="section-title">{{ .title | markdownify }}</h2>
+      </div>
+    </div>
+  </div>
+  {{ with .image }} <img src="{{ . | relURL }}" alt="" class="img-fluid w-100">{{ end }}
+</section>
+{{ end }}
+{{ end }}
+<!-- /screenshot -->
+
+
+{{ end }}

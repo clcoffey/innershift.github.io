@@ -1,0 +1,123 @@
+{{ define "main" }}
+
+<!-- {{ partial "page-header.html" . }} -->
+<section class="section pb-4">
+  <div class="container">
+    <h1 class="display-3 fw-medium text-center">InnerShift Reflections</h1>
+    <h2 class="mb-4 text-center" style="color: #50956D;">A Space to Slow Down &amp; Listen In</h2>
+    <div class="row justify-content-center">
+      <div class="col-lg-8 text-center">
+        <p style="text-align: left;">The world is loud. But real clarity rarely comes from noise. <b>InnerShift Reflections </b> is a growing library of gentle, practical insights to help you move through stress, burnout, and transition with more calm and self-trust. <br><br>Here, you’ll find:<br>🌿 Personal reflections on leadership, clarity, and inner work<br>🪷 Practical tools and perspectives for reducing stress and burnout<br>✨ Stories that remind you: real transformation starts within</p>
+        <form method="POST" class="row g-2" action="https://formspree.io/f/mpwyyeyn">
+          <div class="col-lg-4 col-md-8 col-8">
+            <input class="form-control shadow-none" type="email" name="email_address" placeholder="Email" required>
+          </div>
+          <div class="col-lg-4 col-md-3 col-4 d-grid ms-2">
+            <button class="btn btn-primary btn-sm" type="submit" target="_blank">
+              Subscribe to The InnerShift
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+.read-more-link {
+  color: darkgreen;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.read-more-link:hover {
+  color: #50956D;
+  text-decoration: underline;
+}
+</style>
+
+<section class="section bg-light mt-4" style="padding-top: 40px; padding-bottom: 40px;">
+  <div class="container">
+    <div class="row gx-md-5 gy-6">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 col-md-12 col-12">
+          <h2 class="mb-4" style="color: #50956D;">Latest Reflections</h2>
+          {{ range first 1 (where site.RegularPages "Type" "featured") }}
+          <div class="col-12 mb-4 pb-0">
+            <div class="row align-items-center">
+              <!--<div class="col-md-6 mb-4 mb-md-0">
+                {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "rounded-2 w-100") }}
+              </div>-->
+              <div class="col-md-6">
+                <h2 ><a href="{{ .Permalink }}" title="{{ .Title }}" class="text-dark d-inline-block">{{ .Title }}</a></h2>
+                <p class="mb-2">{{ .Summary }}</p>  
+                <a href="{{.Permalink}}" class="read-more-link">{{ i18n `read_more` }}</a>
+                <!--<a href="{{.Permalink}}" title="{{ i18n `read_more` }} - {{ .Title }}" class="btn btn-sm btn-primary">{{ i18n `read_more` }}</a> --> 
+              </div>
+            </div>
+          </div>
+          {{ end }}
+          {{ $paginator := .Paginate (where site.RegularPages "Section" "in" site.Params.mainSections) 6 }}
+          {{ range $paginator.Pages }}
+              <div class="card bg-transparent border-0">
+                  <!--{{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "rounded-2 mb-4" "Size" "460x") }}-->
+                  <div class="card-body mb-4 p-0">
+                    <h3><a href="{{ .Permalink }}" title="{{ .Title }}" class="text-dark d-inline-block">{{ .Title }}</a></h3>
+                    <p>{{ .Summary }}</p>
+                    <a href="{{.Permalink}}" class="read-more-link">{{ i18n `read_more` }}</a>
+                  </div>
+                </div>
+          {{ end }}
+        </div>
+      </div>
+      <!-- pagination -->
+      <div class="col-12">
+        {{ partial "custom-pagination" . }}
+      </div>
+      <!-- /pagination -->
+    </div>
+  </div>
+</section>
+
+<!-- call to action -->
+<section class="section">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8 col-md-10 text-center">
+
+        <!-- Title & subtitle -->
+        <h2 class="section-title mb-3" style="color: #50956D;">Stay Connected</h2>
+        <h4 class="mb-4">Real transformation starts with small shifts.</h4>
+
+        <!-- Subscribe + alignment call description -->
+        <p class="mb-3">Subscribe to receive a new reflection each week: gentle, practical and timeless.</p>
+
+        <!-- Email + button side by side -->
+        <form method="POST" class="row g-2 justify-content-center mb-4" action="https://formspree.io/f/mpwyyeyn">
+          <div class="col-md-4 col-7">
+            <input class="form-control shadow-none" type="email" name="email_address" placeholder="Email" required>
+          </div>
+          <div class="col-lg-3 col-md-3 col-4 d-grid ms-2">
+            <button class="btn btn-primary btn-sm" type="submit" target="_blank">
+              Subscribe to InnerShift
+            </button>
+          </div>
+        </form>
+
+        <!-- Alignment Call -->
+        <p class="mb-2">Or, if you’re ready to take your first step:</p>
+        <a href="https://cal.com/cristina-coffey/alignment" 
+           title="Book an Alignment Call" 
+           class="btn btn-primary btn-sm"
+           target="_blank" 
+           rel="noopener noreferrer">
+          Book an Alignment Call
+        </a>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- /call to action -->
+
+{{ end }}

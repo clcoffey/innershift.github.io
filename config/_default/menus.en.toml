@@ -1,0 +1,61 @@
+# main menu
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "Newsletter"
+url = "/blog"
+weight = 2
+
+[[main]]
+name = "Pricing"
+url = "/pricing"
+weight = 3
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 4
+
+[[main]]
+name = "FAQ"
+url = "/faq"
+weight = 5
+
+# footer menu left
+[[footer_left]]
+name = "About Cristina"
+url = "#"
+
+[[footer_left]]
+name = "Coaching"
+url = "#"
+
+[[footer_left]]
+name = "InnerShift Newsletter"
+url = "/blog"
+
+
+# footer menu middle
+[[footer_middle]]
+name = "Book a Session"
+url = "https://cal.com/cristina-coffey"
+
+[[footer_middle]]
+name = "Contact"
+url = "/contact"
+
+# footer menu right
+[[footer_right]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+
+[[footer_right]]
+name = "Terms & Conditions"
+url = "/terms-conditions"
+
+[[footer_right]]
+name = "Disclaimer"
+url = "/disclaimer"
