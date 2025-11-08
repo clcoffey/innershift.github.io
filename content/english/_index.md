@@ -12,7 +12,8 @@ banner:
 ################### Testimonial ########################
 testimonial1:
   enable : true
-  content : "Cristina created a space that felt deeply safe, grounded, and sacred. I left feeling lighter, clearer, and profoundly grateful."
+  title : "One of the most powerful experiences I’ve ever had."
+  content : "I recently had a session with Cristina Coffey, and honestly, it was one of the most powerful experiences I’ve ever had. <br><br>From the moment we began, Cristina created a space that felt deeply safe, grounded, and sacred. She guided me with such warmth and intuition that insights surfaced I didn’t even realize were still within me. Her ability to tune in, hold space, and guide with compassion is truly extraordinary.<br><br>I’ve done a lot of coaching and courses over the years, but this session stands out as one of the most transformative things I’ve ever done. I left feeling lighter, clearer, and profoundly grateful.<br><br>If you have the chance to work with Cristina, do it. You’ll come away changed in the best way possible. Ten stars from me."
   name : "Karen Dwyer - The MS Coach"
   stars : "⭐⭐⭐⭐⭐"
 
@@ -51,6 +52,15 @@ feature:
     enable : true
     label : "Learn more about my approach"
     link : "#"
+
+################### Testimonial ########################
+testimonial2:
+  enable : true
+  title : "Way more than relaxation. I released tension held for years."
+  content : "I had a wonderful session with Cristina Coffee. I didn’t know what to expect apart from hoping to get some relief from stress. ‘Life has been a lot of late.' <br><br>It was way more than relaxation. I’ve had a lot of meditations and therapies over the years, but this was something different. I loved the way she guided me into a restful place and then helped me to explore where I was physically holding the stress. <br><br>I can’t begin to tell you how this helped me to connect with my body. I went so deep and managed to release tension that I’ve been holding for weeks probably years. I left the session feeling very light in body and found that I could breathe a lot easier. Thank you. I would highly recommend."
+  name : "Bev Porrino - Neuroconnective Therapist"
+  stars : "⭐⭐⭐⭐⭐"
+  image : images/Bev-Porrino.png
 
 ######################### About me #####################
 about_me:

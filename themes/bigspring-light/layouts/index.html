@@ -28,9 +28,13 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-9 text-center">
-        <h4 class="mb-4"><i>{{ .content | markdownify }}</i></h4>
-        <p>{{ .name | markdownify }}</p>
+      <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+        <iframe width="316" height="510" src="https://www.youtube.com/embed/rBxag31jJQo" title="Karen Dwyer testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      </div>
+      <div class="col-6 text-left">
+        <h4 class="mb-4"><i>{{ .title | markdownify }}</i></h4>
+        <p><i>{{ .content | markdownify }}</i></p>
+        <p><b>{{ .name | markdownify }}</b></p>
         <h6>{{ .stars | markdownify }}</h6>
       </div>
     </div>
@@ -91,11 +95,14 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-9 text-center">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        <h4 class="mb-4">{{ .subtitle | markdownify }}</h4>
-        <p>{{ .content | markdownify }}</p>
-        <h6>{{ .name | markdownify }}</h6>
+      <div class="col-6 text-right">
+        <h4 class="mb-4"><i>{{ .title | markdownify }}</i></h4>
+        <p><i>{{ .content | markdownify }}</i></p>
+        <p><b>{{ .name | markdownify }}</b></p>
+        <h6>{{ .stars | markdownify }}</h6>
+      </div>
+      <div class="col-lg-3 col-md-3 mb-2 mb-md-0">
+        {{ with .image }} {{ partial "image" (dict "Src" . "Alt" "Bev Porrino Image" "Class" "img-fluid w-100") }} {{ end }} 
       </div>
     </div>
   </div>
@@ -107,7 +114,7 @@
 <!-- about -->
 {{ with .Params.about_me }}
 {{ if .enable }}
-<section class="section">
+<section class="section bg-light">
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
