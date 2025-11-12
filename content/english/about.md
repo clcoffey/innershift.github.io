@@ -2,7 +2,8 @@
 title: "About"
 layout: "about"  # make sure this matches the layout file you showed
 about:
-  title: "From High Performance to InnerShift"
+  title_first: "From High Performance "
+  title_second: "to InnerShift"
   content: "For years, I lived in a world of relentless pace and high expectations. <br><br>I worked in innovation and leadership at the highest levels as a founder, a Chief Strategy Officer, and a driver of ambitious change. I thrived on building, leading, and creating impact. <br><br>But beneath the polished surface, I was burning out.<br><br>The pressure that once energised me began to erode my clarity. I ignored the signals exhaustion, physical symptoms, a mind that wouldn’t quiet. Eventually, my body and my nervous system made the decision I had been avoiding: STOP. <br><br> That moment of collapse became the doorway to something far more powerful my InnerShift."
   image: "images/cristina-about.png"
 
