@@ -40,6 +40,13 @@
           <p class="mb-0">{{.content | markdownify}}</p>
         </div>
       </div>
+      <div class="col-12 text-center">
+        {{ if .button.enable }}
+            {{ with .button }}
+              <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary">{{ .label }}</a>
+            {{ end }}
+            {{ end }}
+      </div>
       {{end}}
 
       {{with .Params.who_we_are}}
@@ -92,7 +99,7 @@
           <div class="col-lg-4 col-sm-6">
             <div class="block">
               <span class="h3 text-primary"><i class="{{.icon}}"></i></span>
-              <h3 class="mt-2 mt-lg-4 mb-1 mb-lg-3"><span class="counter" data-counter-time="1000">{{.counter}}</span>{{.counter_suffix}}</h3>
+              <h2 class="mt-2 mt-lg-4 mb-1 mb-lg-3"><span class="counter" data-counter-time="1000">{{.counter}}</span>{{.counter_suffix}}</h2>
               <p class="mb-0 lead">{{.content | markdownify}}</p>
             </div>
           </div>

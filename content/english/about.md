@@ -16,6 +16,10 @@ founders_quote:
 leading_from_within:
   title: "A New Way of Leading — From Within"
   content: "My healing journey wasn’t about finding a quick fix. It was about **slowing down**, listening inward, and learning how to meet life differently. <br><br>Through daily meditation, nervous system regulation, and trauma integration work, I moved from survival mode to a way of living that’s grounded, clear, and steady.<br><br>Today, I help others do the same.<br><br>I work with leaders and professionals who carry quiet weight — the stress, pressure, and emotional load that often comes with responsibility. My role is to create a **safe, grounded space** where what feels heavy becomes movable again, and clarity naturally emerges.<br><br>This is about moving past fear, anxiety and emotions that slow you down and making decisions with clarity and authenticity.<br><br>It’s about learning how to **come home to yourself**."
+  button:
+    enable : true
+    label : "Learn more about my approach"
+    link : "/coaching"
 
 professional_background:
   enable: true

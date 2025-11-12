@@ -52,7 +52,7 @@ feature:
   button:
     enable : true
     label : "Learn more about my approach"
-    link : "#"
+    link : "/coaching"
 
 ################### Testimonial ########################
 testimonial2:
