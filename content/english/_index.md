@@ -1,7 +1,8 @@
 ---
 ####################### Banner #########################
 banner:
-  title : "More than Coaching. A Space for Transformation"
+  title_first : "More than Coaching."
+  title_second : " A Space for Transformation"
   image : "images/banner-art.svg"
   content : "A coaching practice incorporating guided meditation for leaders and professionals who are ready to move beyond anxiety and burnout, integrate deep stress patterns, and reconnect with their authentic energy, clarity, and purpose."
   button:
@@ -71,7 +72,7 @@ about_me:
   button:
     enable : true
     label : "Learn more about my journey"
-    link : "#"
+    link : "/about"
 
 ################### Testimonial ########################
 #testimonial2:

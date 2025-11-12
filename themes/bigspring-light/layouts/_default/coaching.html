@@ -1,0 +1,291 @@
+{{ define "main" }}
+<!-- banner -->
+{{ with .Params.banner }}
+<section class="banner bg-light">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center">
+        <h1 class="mb-3">
+          <span style="color:#000000;">{{ .title_first }}</span><span style="color:#50956D;">{{ .title_second }}</span>
+        </h1>
+        <h3 class="mb-4" style="color: #7F7268;">{{ .subtitle | markdownify }}</h3>
+        <p class="mb-4" style="font-size: 21px;">{{ .content | markdownify }}</p>
+
+        {{ with .card }}
+        <div class="d-flex justify-content-center">
+          <div class="col-md-9 col-sm-6 mb-4">
+            <div class="feature-card text-center"
+                 style="background-color: #E6EAE2; color: #8BB69A; border: 1px solid #8BB69A; border-radius: 12px; padding: 20px;">
+              <p class="mb-2" style="font-size: 20px; color: #8BB69A;">{{ .name | title }}</p>
+            </div>
+          </div>
+        </div>
+        {{ end }}
+
+        {{ with .image }}
+        <img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px">
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+<!-- /banner -->
+
+      <section className="py-24 px-4 bg-card">
+        <div className="container max-w-4xl mx-auto slide-up">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 text-center text-foreground">
+            Through InnerShift
+          </h2>
+          
+          <p className="text-xl text-center text-foreground/90 mb-12 leading-relaxed">
+            I help leaders and professionals move from chronic stress and emotional weight into a state of clarity, ease, and grounded presence. In this space making decisions comes easier and the weight lifts.
+          </p>
+        </div>
+      </section>
+
+      <section className="py-24 px-4 bg-background">
+        <div className="container max-w-4xl mx-auto slide-up">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 text-center text-foreground">
+            🌿 How It Works
+          </h2>
+          
+          <p className="text-xl text-center text-muted-foreground mb-12 leading-relaxed">
+            Each session is a 90-minute, deeply guided space designed to help you slow down, breathe again, and reconnect with what's really going on beneath the surface.
+          </p>
+          
+          <Card className="p-8 border-primary/10 mb-12">
+            <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+              We'll work together to:
+            </p>
+            
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>Identify the triggers and patterns behind your stress</span>
+              </li>
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>Create a safe space where your system can finally exhale</span>
+              </li>
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>Gently release the weight of unprocessed emotions and pressure through meditation</span>
+              </li>
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>Reconnect you to your own inner clarity and steadiness</span>
+              </li>
+            </ul>
+            
+            <p className="text-xl text-center text-primary font-serif mt-8">
+              This isn't about fixing you.<br />
+              It's about helping you come home to yourself.
+            </p>
+          </Card>
+        </div>
+      </section>
+
+      <section className="py-24 px-4 bg-accent/10">
+        <div className="container max-w-4xl mx-auto slide-up">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 text-center text-foreground">
+            🪷 Step 1 — The Alignment Call
+          </h2>
+          
+          <p className="text-center text-lg text-muted-foreground mb-8">
+            (Donation-Based Introductory Session)
+          </p>
+          
+          <Card className="p-8 border-primary/10">
+            <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+              If this is your first time working with me, we'll begin with an Alignment Call.
+            </p>
+            
+            <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+              This 90-minute session is:
+            </p>
+            
+            <ul className="space-y-4 mb-8">
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>A gentle exploration of what brings you here</span>
+              </li>
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>A chance to experience the work in real time</span>
+              </li>
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>A foundation for deciding whether we want to continue together</span>
+              </li>
+            </ul>
+            
+            <p className="text-lg text-foreground/80 mb-4 leading-relaxed">
+              There's no set fee. At the end of our time together, you can donate what feels right based on the value you received.
+            </p>
+            
+            <p className="text-lg text-center text-primary font-medium">
+              No pressure. No expectations.
+            </p>
+          </Card>
+        </div>
+      </section>
+
+      <section className="py-24 px-4 bg-card">
+        <div className="container max-w-4xl mx-auto slide-up">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 text-center text-foreground">
+            🌱 Step 2 — Clarity Sessions
+          </h2>
+          
+          <p className="text-center text-lg text-muted-foreground mb-8">
+            (Ongoing Work)
+          </p>
+          
+          <Card className="p-8 border-primary/10 mb-8">
+            <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+              For those who choose to continue, Clarity Sessions are where deeper transformation unfolds.
+            </p>
+            
+            <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+              These 90-minute sessions are designed to help you:
+            </p>
+            
+            <ul className="space-y-4">
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>Release stress and emotional weight at its root</span>
+              </li>
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>Access clarity around decisions, leadership, and personal direction</span>
+              </li>
+              <li className="flex items-start gap-3 text-lg text-foreground/80">
+                <span className="text-primary mt-1">•</span>
+                <span>Build lasting inner resilience and a new way of moving through life</span>
+              </li>
+            </ul>
+          </Card>
+          
+          <div className="text-center">
+            <Button variant="hero" size="lg" asChild>
+              <a href="https://cal.com/cristina-coffey/claritysession" target="_blank" rel="noopener noreferrer">
+                Book a Clarity Session
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 px-4 bg-background">
+        <div className="container max-w-4xl mx-auto slide-up">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-12 text-center text-foreground">
+            ✨ Why This Work Is Different
+          </h2>
+          
+          <div className="grid md:grid-cols-2 gap-6">
+            <Card className="p-6 border-primary/10">
+              <div className="text-3xl mb-3">🪷</div>
+              <p className="text-lg text-foreground/90">
+                <span className="font-semibold">Safe, grounded space</span> - no performance, no pressure
+              </p>
+            </Card>
+            
+            <Card className="p-6 border-primary/10">
+              <div className="text-3xl mb-3">🌿</div>
+              <p className="text-lg text-foreground/90">
+                <span className="font-semibold">Rooted in lived experience</span> - I've been where you are
+              </p>
+            </Card>
+            
+            <Card className="p-6 border-primary/10">
+              <div className="text-3xl mb-3">🧘</div>
+              <p className="text-lg text-foreground/90">
+                <span className="font-semibold">Fully based on Meditation practices</span> - A gentle way to understand where emotions and triggers come from and heal
+              </p>
+            </Card>
+            
+            <Card className="p-6 border-primary/10">
+              <div className="text-3xl mb-3">🧭</div>
+              <p className="text-lg text-foreground/90">
+                <span className="font-semibold">Leadership-informed</span> - I understand the realities of high-responsibility roles
+              </p>
+            </Card>
+            
+            <Card className="p-6 border-primary/10 md:col-span-2">
+              <div className="text-3xl mb-3">💻</div>
+              <p className="text-lg text-foreground/90">
+                <span className="font-semibold">Accessible</span> - all sessions are held online, wherever you are
+              </p>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 px-4 bg-secondary/20">
+        <div className="container max-w-4xl mx-auto slide-up">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 text-center text-foreground">
+            🕊 Client Words
+          </h2>
+          
+          <Card className="p-8 bg-background border-primary/20">
+            <p className="text-xl text-foreground/90 mb-6 leading-relaxed italic">
+              "One of the most powerful experiences I've ever had. I left feeling lighter, clearer, and profoundly grateful."
+            </p>
+            
+            <p className="text-lg text-foreground/80 mb-6 leading-relaxed">
+              I recently had a session with Cristina Coffey, and honestly, it was one of the most powerful experiences I've ever had. From the moment we began, Cristina created a space that felt deeply safe, grounded, and sacred. She guided me with such warmth and intuition that insights surfaced I didn't even realize were still within me. Her ability to tune in, hold space, and guide with compassion is truly extraordinary. I've done a lot of coaching and courses over the years, but this session stands out as one of the most transformative things I've ever done. I left feeling lighter, clearer, and profoundly grateful. If you have the chance to work with Cristina, do it. You'll come away changed in the best way possible. Ten stars from me.
+            </p>
+            
+            <p className="text-center text-foreground font-medium mb-2">
+              — Karen Dwyer - The MS Coach
+            </p>
+            <p className="text-center text-gold text-xl">
+              ⭐⭐⭐⭐⭐
+            </p>
+          </Card>
+          
+          <div className="text-center mt-8">
+            <video 
+              controls 
+              className="w-full max-w-2xl mx-auto rounded-lg shadow-lg"
+              poster="/placeholder.svg"
+            >
+              <source src="/testimonial-video.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
+            </video>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-24 px-4 bg-gradient-to-br from-primary/5 to-accent/10">
+        <div className="container max-w-4xl mx-auto text-center slide-up">
+          <h2 className="text-4xl md:text-5xl font-serif font-bold mb-8 text-foreground">
+            📅 Book Your Session
+          </h2>
+          
+          <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
+            Choose a time that works best for you.
+          </p>
+          
+          <p className="text-lg text-foreground/80 mb-8 leading-relaxed">
+            Once booked, you'll receive a confirmation email with everything you need to prepare.
+          </p>
+          
+          <p className="text-lg text-primary font-medium mb-12">
+            ✨ All sessions are held online.
+          </p>
+          
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <Button variant="hero" size="lg" asChild>
+              <Link to="/booking">Book Your Alignment Call</Link>
+            </Button>
+            <Button variant="heroSecondary" size="lg" asChild>
+              <a href="https://cal.com/cristina-coffey/claritysession" target="_blank" rel="noopener noreferrer">
+                Book a Clarity Session
+              </a>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+{{ end }}
