@@ -52,23 +52,24 @@ The life you’ve obeyed was chosen for you, not by you.
 
 High performance is rewarded—but at a cost: your **authentic energy**.  
 
-When your life is shaped by others’ expectations, tension, stress, and disconnection become the norm.  
+When your life is shaped by others' expectations, tension, stress, and disconnection become the norm. This is often where [burnout quietly builds](https://innershift.vercel.app/blog/burnout-signal/), and where [the success mask begins to feel too heavy](https://innershift.vercel.app/blog/success-mask-burnout/).
+
 Your soul is whispering beneath the surface.
 
-> “Authenticity is the daily practice of letting go of who we think we’re supposed to be.”  
+> "Authenticity is the daily practice of letting go of who we think we're supposed to be."  
 > — Brené Brown
 
 ---
 
 ### Reclaiming Your Sovereignty
 
-The InnerShift process helps you move beyond the script and reclaim your inner authority:
+The InnerShift process helps you move beyond the script and reclaim your inner authority. This is the same path that helps people [recover from burnout](https://innershift.vercel.app/blog/burnout-signal/), [break free from the costume of success](https://innershift.vercel.app/blog/from-ceo-to-costume/), and [reconnect with authentic purpose instead of endless busyness](https://innershift.vercel.app/blog/busy-ness-vs-purpose/):
 
 - Uncover the real roots of stress and anxiety  
 - Release emotional weight and pressure  
 - Reconnect with your authentic energy, clarity, and purpose  
 
-Sovereignty isn’t about performance—it’s about integration: conscious and unconscious, body and soul.
+Sovereignty isn't about performance—it's about integration: conscious and unconscious, body and soul.
 
 ---
 

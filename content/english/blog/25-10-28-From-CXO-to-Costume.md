@@ -16,7 +16,7 @@ tags:
   - inner work
   - personal growth
 reading_time: "5 min"
-slug: from-ceo-to-costume
+slug: from-cxo-to-costume
 # post draft
 draft: false
 ---
