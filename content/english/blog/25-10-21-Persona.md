@@ -2,13 +2,13 @@
 title: "The Lie of the Persona: Why Your “Success Mask” Is Causing Your Burnout"
 date: 2025-10-21T10:30:00+06:00
 # post image
-#image: "images/blog/success-mask.jpg"
+image: "images/blog/success-mask.jpg"
 # author
 author: "Cristina Coffey"
 # post type (regular/featured)
 type: "regular"
 # meta description
-description: "Wearing the mask of success can quietly exhaust your soul. Learn why your persona may be causing burnout and how to reconnect with your authentic self."
+description: "Wearing the success mask can quietly exhaust your energy. Learn how herd morality shapes the persona, why it leads to burnout, and simple practices to reclaim authentic energy."
 tags: 
   - burnout
   - persona
@@ -16,6 +16,8 @@ tags:
   - inner work
   - mindfulness
   - leadership
+  - identity
+  - purpose
 reading_time: "5 min"
 slug: success-mask-burnout
 # post draft
@@ -26,7 +28,7 @@ We spend years building a version of ourselves that the world admires — polish
 But what if that version isn’t really you?  
 What if your “success mask” is quietly draining your life force?
 
-This week, let’s explore how the persona we wear can create burnout, and how to gently reconnect with your authentic self.
+This week, let’s explore how the persona we wear can create burnout (often fueled by [societal expectations](/blog/herd-morality/)), and how to gently reconnect with your authentic self.
 
 ---
 
@@ -60,12 +62,12 @@ The view from the top is beautiful, but it’s framed in someone else’s bluepr
 
 The stress of high-achievers isn’t just external; it’s **the emotional cost of maintaining a false identity**.  
 
-Wearing a mask year after year creates tension, exhaustion, and disconnection.  
+Wearing a mask year after year creates tension, exhaustion, and disconnection, the slow erosion leading to [burnout](/blog/burnout-signal/).  
 The deeper issue? We often inherit beliefs about worth and success that reward compliance and punish authenticity.  
 So even when we “have it all,” it can feel like we have nothing at all.
 
 > “When we wear the mask, we suppress the whisper of our soul until it becomes a shout we can no longer ignore.”  
-> — Cristina Coffey
+> — Anonymous
 
 ---
 
@@ -73,7 +75,7 @@ So even when we “have it all,” it can feel like we have nothing at all.
 
 Eventually, the persona stops working.  
 Restlessness, dissatisfaction, and subtle anxiety signal that the performance is no longer sustainable.  
-Traditional coping mechanisms — busyness, overachievement, distraction — stop working because the issue isn’t outside: it’s deep within the self we’ve constructed.  
+Traditional coping mechanisms — busyness, overachievement, distraction — stop working because the issue isn’t outside: it’s deep within the self we’ve constructed.
 
 Burnout in this context is not laziness or weakness.  
 It’s your soul knocking on the door, saying: *“Come back to me.”*

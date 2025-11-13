@@ -2,19 +2,21 @@
 title: "From CXO to Costume: When Your Identity Is Built on Achievements, Who Are You When the Applause Stops?"
 date: 2025-10-28T10:00:00+06:00
 # post image
-#image: "images/blog/from-ceo-to-costume.jpg"
+image: "images/blog/from-ceo-to-costume.jpg"
 # author
 author: "Cristina Coffey"
 # post type (regular/featured)
 type: "regular"
 # meta description
-description: "When your identity is tied to achievements, what happens when the applause stops? Explore how to reconnect with your authentic self."
+description: "When identity is built on achievements, the applause fades — learn how to reclaim your authentic self and move beyond the costume of success."
 tags: 
   - persona
   - authenticity
   - leadership
   - inner work
   - personal growth
+  - identity
+  - midlife
 reading_time: "5 min"
 slug: from-cxo-to-costume
 # post draft
@@ -42,9 +44,10 @@ What remains when the mask of success no longer fits?
 
 ### The Barren Summit
 
-Imagine you've spent your entire adult life climbing one grueling step after another, chasing success, identity, and professional validation. You achieve the milestones: the title, the team, the reputation. You begin to glimpse what feels like the summit, maybe around age 40, only to realize the view is barren
 
-The life you built starts to feel like a costume. The smile you wear begins to crack. Who are you when the external accolades stop? 
+Imagine you've spent your entire adult life climbing one grueling step after another, chasing success, identity, and professional validation. You achieve the milestones: the title, the team, the reputation. You begin to glimpse what feels like the summit, maybe around age 40, only to realize the view is barren.
+
+The life you built can start to feel like a costume — a set of roles and performances shaped by [societal expectations](/blog/herd-morality/) and the rewards of external validation. The smile you wear begins to crack. Who are you when the external accolades stop?
 
 Carl Jung described this as the persona: the necessary mask that allowed you to survive and function in the world.  
 It’s the version of you that is polished, productive, and rewarded by society.
@@ -53,9 +56,10 @@ It’s the version of you that is polished, productive, and rewarded by society.
 
 ### The Weight of Identification
 
+
 The pressure that high-achievers carry isn't just about workload; it’s the sheer exhaustion of maintaining a false identity. The problem arises when adaptation becomes identification. When you mistake the role for who you are, and the longer you wear that mask, the heavier it becomes. 
 
-That deep ache you feel—that vague dissatisfaction that no promotion or amount of money can fill—is the authentic self suffocating beneath decades of pretense.
+That deep ache you feel—that vague dissatisfaction that no promotion or amount of money can fill—often presages [burnout](/blog/burnout-signal/) or the slow hollowing-out that other posts call the [success mask](/blog/success-mask-burnout/). The authentic self can suffocate beneath decades of pretense.
 
 > “When the applause fades, silence becomes a doorway to the unconscious.”  
 > — Anonymous
@@ -64,7 +68,8 @@ That deep ache you feel—that vague dissatisfaction that no promotion or amount
 
 ### InnerShift: Unveiling the Authentic Self
 
-The key to moving beyond this hollow feeling is turning the outer journey of achievement inward. My approach creates a **safe, grounded space** where we begin the process of **unbecoming** everything you never trylly are. 
+
+The key to moving beyond this hollow feeling is turning the outer journey of achievement inward. My approach creates a **safe, grounded space** where we begin the process of **unbecoming** everything you never trylly were — and where you learn to trade the costume for presence and purpose.
 
 This work is designed to help you:
 
