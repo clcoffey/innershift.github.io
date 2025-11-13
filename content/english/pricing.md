@@ -4,6 +4,8 @@ subtitle: "Everything you need for best in class service"
 description: "Everything you need for best in class service"
 draft: false
 layout: "pricing"
+sitemap:
+  exclude: true
 
 pricing_list:
   # pricing item
