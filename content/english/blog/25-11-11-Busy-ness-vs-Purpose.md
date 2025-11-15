@@ -83,6 +83,6 @@ _**“Where in my life am I chasing busy-ness instead of truth?”**_
 
 ### A Gentle Next Step
 
-If you are tired of the hussle and ready to reconnect with depth and meaning, I invite you to a **90-minute Alignment Call**, a donation-based session to explore your inner truth.
+If you are tired of the hustle and ready to reconnect with depth and meaning, you can now book a **30-minute free Alignment Call** — a gentle, no-pressure session to explore your inner truth and experience the InnerShift process before you commit.
 
-👉 [Book Your Alignment Call](https://cal.com/cristina-coffey/alignment)
+👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)

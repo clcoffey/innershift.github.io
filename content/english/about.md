@@ -57,7 +57,7 @@ fun_facts:
 call_to_action:
   enable : true
   title : "Your Shift Starts Here"
-  content : "If you see yourself in my story, I invite you to take the first gentle step.<br><br>Our work begins with a **90-minute Alignment Call** — a donation-based session designed to help you explore what’s beneath the surface and experience the power of slowing down."
+  content : "If you see yourself in my story, I invite you to take the first gentle step.<br><br>Our work begins with a **30-minute free Alignment Call** — designed to help you explore what’s beneath the surface and experience the power of slowing down before you commit."
   button:
     enable : true
     label : "Book a Session"

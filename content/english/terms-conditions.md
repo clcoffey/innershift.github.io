@@ -21,7 +21,7 @@ You agree to provide at least 24 hours’ notice if rescheduling or canceling a 
 You understand that results may vary depending on your personal engagement in the process.
 
 #### 3. Payment and Donations
-Alignment Calls are offered on a donation basis, with no set fee.
+Alignment Calls are offered free of charge.
 Ongoing Clarity Sessions are offered at mutually agreed rates.
 Payment is due at or before the time of the session, unless otherwise agreed.
 No refunds will be issued once a session has taken place.

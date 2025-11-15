@@ -128,6 +128,6 @@ This is the path I now guide others along—turning what feels like a breakdown 
 If you see yourself in these words, know this:  
 This is not the end of the road. It’s your invitation to **step into your breakthrough**.
 
-I offer a **90-minute Alignment Call** — a donation-based introductory session to gently explore what’s beneath the surface of your restlessness and begin your InnerShift.
+I offer a **30-minute Free Alignment Call** — to ask questions, tell me what is on your mind, gently explore what’s beneath the surface of your restlessness and begin your InnerShift.
 
-👉 [Book Your Alignment Call](https://cal.com/cristina-coffey/alignment)
+👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)

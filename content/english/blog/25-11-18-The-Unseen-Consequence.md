@@ -91,6 +91,6 @@ _**“What part of myself am I ready to let go of and what feelings does it prom
 You are suspended between two selves: one fading, one forming.  
 This is authenticity being born.
 
-A **90-minute Alignment Call** is available to gently explore what lies beneath the surface and step into your authentic self.
+I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to ask questions, tell me about the things that are on your mind, to gently explore what lies beneath the surfaceand and step into your authentic self.
 
-👉 [Book Your Alignment Call](https://cal.com/cristina-coffey/alignment)
+👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)

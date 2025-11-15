@@ -90,6 +90,6 @@ _**“What part of me wants to live without permission or approval?”**_
 
 The shift is not about making noise; it begins with refusal. You refuse to shrink to fit, and you refuse to betray your truth.
 
-If you’re ready to stop performing and start living from your center, I invite you to a **90-minute Alignment Call** — a donation-based session to explore your authentic energy.
+I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to explore your authentic energy and experience the InnerShift process before you commit.
 
-👉 [Book Your Alignment Call](https://cal.com/cristina-coffey/alignment)
+👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)

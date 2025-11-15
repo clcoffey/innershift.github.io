@@ -137,6 +137,6 @@ Now, I guide others to do the same.
 If you feel the mask weighing on you, know this:  
 Burnout isn’t a personal failing. It’s your soul asking for attention and care.  
 
-I offer a **90-minute Alignment Call** — a donation-based session to gently explore what’s beneath the surface of your stress and reconnect with your authentic self.
+I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to ask questions, tell me about the things that are on your mind, explore what’s beneath the surface and experience the InnerShift process before you commit.
 
-👉 [Book Your Alignment Call](https://cal.com/cristina-coffey/alignment)
+👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)

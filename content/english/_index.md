@@ -7,7 +7,7 @@ banner:
   content : "A coaching practice incorporating guided meditation for leaders and professionals who are ready to move beyond anxiety and burnout, integrate deep stress patterns, and reconnect with their authentic energy, clarity, and purpose."
   button:
     enable : true
-    label : "Book an Alignment Call"
+    label : "Book a Free Alignment Call"
     link : "https://cal.com/cristina-coffey/alignment"
 
 ################### Testimonial ########################
@@ -93,7 +93,7 @@ call_to_action_newsletter:
 call_to_action:
   enable : true
   title : "Begin Your InnerShift"
-  content : "Book a 90-minute donation-based Alignment Call and create space for real change."
+  content : "Book a 30-minute free Alignment Call and create space for real change."
   button:
     enable : true
     label : "Book a Session"

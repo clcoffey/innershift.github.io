@@ -33,14 +33,14 @@ how_it_works:
 
 step1:
   title : "🪷 Step 1 — The Alignment Call"
-  subtitle : "(Donation-Based Introductory Session)"
+  subtitle : "(Free Introductory Session)"
   steps :
-    title : "If this is your first time working with me, we'll begin with an Alignment Call. <br>This 90-minute session is:"
+    title : "If this is your first time working with me, we'll begin with an Alignment Call. <br>This 30-minute session is:"
     content1 : |
       - A gentle exploration of what brings you here
       - A chance to experience the work in real time
       - A foundation for deciding whether we want to continue together
-    content2: "There's no set fee. At the end of our time together, you can donate what feels right based on the value you received."
+    #content2: "There's no set fee. At the end of our time together, you can donate what feels right based on the value you received."
     highlight : "_No pressure. No expectations._"
   button:
     enable : true
@@ -105,7 +105,7 @@ testimonial1:
 call_to_action:
   enable : true
   title : "Begin Your InnerShift"
-  content : "Book a 90-minute donation-based Alignment Call and create space for real change."
+  content : "Book a 30-minute Free Alignment Call and create space for real change."
   button:
     enable : true
     label : "Book a Session"

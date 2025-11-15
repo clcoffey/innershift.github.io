@@ -137,6 +137,6 @@ Today, I help others do the same.
 If you see yourself in these words, know this:  
 Burnout isn’t the end of the road. It’s your invitation to turn inward.
 
-I offer a **90-minute Alignment Call**. A donation-based introductory session where we gently explore what’s beneath the surface of your stress and create space for your own InnerShift to begin.
+I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to ask questions, tell me about the things that are on your mind, explore what’s beneath the surface and experience the InnerShift process before you commit.
 
-👉 [Book Your Alignment Call](https://cal.com/cristina-coffey/alignment)
+👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)

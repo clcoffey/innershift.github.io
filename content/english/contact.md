@@ -10,7 +10,7 @@ layout: "contact"
 call_to_action:
   enable : true
   title : "Prefer To Book a Session?"
-  content : "You can also skip the inbox and go straight to a donation-based 90-minute Alignment Call. I'll make sure to answer all your questions there and we'll also do some work ;)"
+  content : "You can also skip the inbox and go straight to a free 30-minute Alignment Call. I'll make sure to answer all your questions there and we'll also do some work ;)"
   button:
     enable : true
     label : "Book Your Alignment Call"

@@ -103,6 +103,6 @@ _**“What would it take to release the mask, even just a little?”**_
 
 If you feel the weight of the costume, know: this moment is not a breakdown—it’s a breakthrough. Your shift begins when you choose to pause and listen inward.
 
-I offer a **90-minute Alignment Call** — a donation-based session designed to help you explore what’s beneath the surface and experience the power of slowing down.
+I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to ask questions, tell me about the things that are on your mind, explore what’s beneath the surface and experience the InnerShift process before you commit.
 
-👉 [Book Your Alignment Call](https://cal.com/cristina-coffey/alignment)
+👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)
