@@ -5,7 +5,7 @@
 <section class="banner">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto text-center">
+      <div class="col-lg-10 col-12 mx-auto text-center">
         <h1 class="mb-3">
           <span style="color:#000000;">{{ .title_first }}</span><span style="color:#50956D;">{{ .title_second }}</span>
         </h1>
@@ -16,7 +16,7 @@
         {{ end }}
         {{ end }}
 
-        {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" width="750px">{{end}}
+        {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" style="max-width: 100%; height: auto;">{{end}}
       </div>
     </div>
   </div>
@@ -30,10 +30,12 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
-        <iframe width="316" height="510" src="https://www.youtube.com/embed/rBxag31jJQo" title="Karen Dwyer testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 mb-md-0">
+        <div style="position: relative; width: 100%; padding-bottom: 161%; height: 0; overflow: hidden;">
+          <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/rBxag31jJQo" title="Karen Dwyer testimonial" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
-      <div class="col-6 text-left">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-left">
         <h4 class="mb-4"><i>{{ .title | markdownify }}</i></h4>
         <p><i>{{ .content | markdownify }}</i></p>
         <p><b>{{ .name | markdownify }}</b></p>
@@ -57,7 +59,7 @@
         <p class="mb-4">{{ .content | markdownify }}</p>
       </div>
       {{ range .feature_item }}
-      <div class="col-md-3 col-sm-6 mb-4">
+      <div class="col-md-3 col-sm-12 col-12 mb-4">
         <div class="feature-card text-center">
           <i class="{{.icon}} mb-3"></i>
           <h4 class="mb-2">{{ .name | title }}</h4>
@@ -69,7 +71,7 @@
         <h2 class="section-title">{{ .title2 | markdownify }}</h2>
       </div>
       {{ range .feature_steps }}
-      <div class="col-md-9 col-sm-6 mb-4">
+      <div class="col-md-9 col-sm-12 col-12 mb-4">
         <div class="feature-card text-left mx-auto" style="display: block; align-items: center; position: relative;">
           <i class="{{.icon}} mb-2" style="display:inline-block; margin-right: 10px;"></i>
           <h4 class="mb-2" style="display:inline-block;">{{ .name | title }}</h4>
@@ -97,13 +99,13 @@
 <section class="section">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-6 text-right">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-right">
         <h4 class="mb-4"><i>{{ .title | markdownify }}</i></h4>
         <p><i>{{ .content | markdownify }}</i></p>
         <p><b>{{ .name | markdownify }}</b></p>
         <h6>{{ .stars | markdownify }}</h6>
       </div>
-      <div class="col-lg-3 col-md-3 mb-2 mb-md-0">
+      <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-2 mb-md-0">
         {{ with .image }} {{ partial "image" (dict "Src" . "Alt" "Bev Porrino Image" "Class" "img-fluid w-100") }} {{ end }} 
       </div>
     </div>
@@ -119,10 +121,10 @@
 <section class="section bg-light">
   <div class="container">
     <div class="row justify-content-center">
-      <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 mb-md-0">
         {{ with .image }} {{ partial "image" (dict "Src" . "Alt" "About me image" "Class" "img-fluid w-100") }} {{ end }} 
       </div>
-      <div class="col-md-6">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <p>{{ .content | markdownify }}</p>
         {{ if .button.enable }}
@@ -143,16 +145,16 @@
 {{ if .enable }}
 <section class="section">
   <div class="container section shadow rounded-lg px-4">
-    <div class="row align-items-center justify-content-center text-center text-md-left">
-      <div class="col-lg-9 col-md-6">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-9 col-md-10 col-12 text-center">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <h3 class="mb-4">{{ .subtitle | markdownify }}</h3>
         {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
         <form method="POST" class="row g-4" action="https://formspree.io/f/mpwyyeyn">
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-12">
             <input class="form-control shadow-none" type="text" name="first_name" placeholder="{{ i18n `fname`}}" required>
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6 col-12">
             <input class="form-control shadow-none" type="email" name="email_address" placeholder="{{i18n `email`}}" required>
           </div>
           <div class="col-lg-12">
@@ -172,15 +174,17 @@
 {{ with .Params.call_to_action }}
 {{ if .enable }}
 <section class="section bg-light">
-    <div class="row align-items-center justify-content-center text-center text-md-left">
-      <div class="col-lg-9 col-md-6">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary" target="_blank">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-9 col-md-10 col-12 text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary" target="_blank">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
       </div>
     </div>
 </section>
@@ -193,11 +197,11 @@
 {{ if .enable }}
 <section class="section">
   <div class="container section shadow rounded-lg px-4">
-    <div class="row align-items-center justify-content-center text-center text-md-left">
-      <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 mb-md-0">
         {{ partial "image" (dict "Src" .image "Alt" "call to action image" "Class" "img-fluid w-100") }}
       </div>
-      <div class="col-lg-5 col-md-6">
+      <div class="col-lg-5 col-md-6 col-sm-12 col-12">
         <h2 class="section-title">{{ .title | markdownify }}</h2>
         <h3 class="mb-4">{{ .subtitle | markdownify }}</h3>
         {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}

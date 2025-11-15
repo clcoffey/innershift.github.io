@@ -31,11 +31,15 @@
 <!-- founder quote -->
 {{with .Params.founders_quote}}
 <section class="section">
-      <div class="col-lg-8 text-center mx-auto mb-2">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-12 text-center mx-auto mb-2">
         <p class="lead text-dark">{{.content | markdownify}}</p>
         <h3 class="section-title h5 mt-3 mb-2">{{.name | markdownify}}</h3>
         <p class="mb-0">{{.subtitle | markdownify}}</p>
-      </div>    
+      </div>
+    </div>
+  </div>
 </section>
   {{end}}
 
@@ -44,16 +48,16 @@
   <div class="container">
     <div class="row gy-5 justify-content-center">
       {{ with .Params.how_it_works }}
-  <div class="col-lg-8 text-center mx-auto mb-5">
+  <div class="col-lg-8 col-md-8 text-center mx-auto mb-5">
     <h2 class="section-title mt-3 mb-2">{{ .title | markdownify }}</h2>
     <p class="mb-0" style="font-size: 18px;">{{ .subtitle | markdownify }}</p>
   </div>
 
   {{ with .steps }}
-  <div class="col-lg-8">
-    <div class="bg-white px-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7;">
-      <p class="mb-3" style="font-size: 18px; padding-left: 4rem;">{{ .title | markdownify }}</p>
-      <div style="font-size: 18px; line-height: 2;padding-left: 4rem;">
+  <div class="col-lg-8 col-12">
+    <div class="bg-white px-3 px-lg-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7;">
+      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title | markdownify }}</p>
+      <div style="font-size: 18px; line-height: 2; padding-left: 1rem; padding-left: calc(1rem + 2vw);">
         {{ .content | markdownify }}
       </div>
       <p class="mb-0 text-center" style="color: #50956D; font-size: 18px">{{ .highlight | markdownify }}</p>
@@ -83,13 +87,13 @@
   </div>
 
   {{ with .steps }}
-  <div class="col-lg-8">
-    <div class="bg-white px-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7;">
-      <p class="mb-3" style="font-size: 18px; padding-left: 4rem;">{{ .title | markdownify }}</p>
-      <div style="font-size: 18px; line-height: 2;padding-left: 4rem;">
+  <div class="col-lg-8 col-12">
+    <div class="bg-white px-3 px-lg-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7;">
+      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title | markdownify }}</p>
+      <div style="font-size: 18px; line-height: 2; padding-left: 1rem; padding-left: calc(1rem + 2vw);">
         {{ .content1 | markdownify }}
       </div>
-      <p class="mb-3" style="font-size: 18px; padding-left: 4rem;">{{ .content2 | markdownify }}</p>
+      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .content2 | markdownify }}</p>
       <p class="mb-0 text-center" style="color: #50956D; font-size: 18px">{{ .highlight | markdownify }}</p>
     </div>
   </div>
@@ -135,13 +139,13 @@
   </div>
 
   {{ with .steps }}
-  <div class="col-lg-8">
-    <div class="bg-white px-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7; border: 1px solid #8BB69A; border-radius: 12px;">
-      <p class="mb-3" style="font-size: 18px; padding-left: 4rem;">{{ .title | markdownify }}</p>
-      <div style="font-size: 18px; line-height: 2;padding-left: 4rem;">
+  <div class="col-lg-8 col-12">
+    <div class="bg-white px-3 px-lg-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7; border: 1px solid #8BB69A; border-radius: 12px;">
+      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title | markdownify }}</p>
+      <div style="font-size: 18px; line-height: 2; padding-left: 1rem; padding-left: calc(1rem + 2vw);">
         {{ .content1 | markdownify }}
       </div>
-      <p class="mb-3" style="font-size: 18px; padding-left: 4rem;">{{ .content2 | markdownify }}</p>
+      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .content2 | markdownify }}</p>
       <p class="mb-0 text-center" style="color: #50956D; font-size: 18px">{{ .highlight | markdownify }}</p>
     </div>
   </div>
@@ -169,7 +173,7 @@
           <p class="mb-4">{{ .content | markdownify }}</p>
         </div>
         {{ range .feature_item }}
-          <div class="col-md-5 col-sm-6 mb-4">
+          <div class="col-md-5 col-sm-12 col-12 mb-4">
             <div class="feature-card text-center">
               {{ if .icon }}
                 <i class="{{ .icon }} mb-3"></i>
@@ -194,10 +198,12 @@
   <div class="container">
     <div class="row justify-content-center">
       <h2 class="section-title text-center mb-5">{{ .heading | markdownify }}</h2>
-      <div class="col-lg-4 col-md-5 mb-4 mb-md-0">
-        <iframe width="316" height="510" src="https://www.youtube.com/embed/rBxag31jJQo" title="Karen Dwyer testimonial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 mb-md-0">
+        <div style="position: relative; width: 100%; padding-bottom: 161%; height: 0; overflow: hidden;">
+          <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;" src="https://www.youtube.com/embed/rBxag31jJQo" title="Karen Dwyer testimonial" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
       </div>
-      <div class="col-6 text-left">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-left">
         <h4 class="mb-4"><i>{{ .title | markdownify }}</i></h4>
         <p><i>{{ .content | markdownify }}</i></p>
         <p><b>{{ .name | markdownify }}</b></p>
@@ -214,15 +220,17 @@
 {{ with .Params.call_to_action }}
 {{ if .enable }}
 <section class="section bg-light">
-    <div class="row align-items-center justify-content-center text-center text-md-left">
-      <div class="col-lg-9 col-md-6">
-        <h2 class="section-title">{{ .title | markdownify }}</h2>
-        {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
-        {{ if .button.enable }}
-        {{ with .button }}
-        <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary" target="_blank">{{ .label }}</a>
-        {{ end }}
-        {{ end }}
+    <div class="container">
+      <div class="row align-items-center justify-content-center">
+        <div class="col-lg-9 col-md-10 col-12 text-center">
+          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
+          {{ if .button.enable }}
+          {{ with .button }}
+          <a href="{{ .link | relURL }}" title="{{ .label }}" class="btn btn-primary" target="_blank">{{ .label }}</a>
+          {{ end }}
+          {{ end }}
+        </div>
       </div>
     </div>
 </section>

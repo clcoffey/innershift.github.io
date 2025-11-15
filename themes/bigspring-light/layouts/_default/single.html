@@ -6,7 +6,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-8 mx-auto">
+      <div class="col-lg-8 col-12 mx-auto">
         {{ if .Params.image }}
           {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "rounded-2 w-100 mb-5") }}
         {{ end }}
@@ -15,14 +15,14 @@
         {{ with site.GetPage (string .Params.Author | urlize | lower) }}
         {{if .Title}}
         <div class="d-block d-sm-flex border p-5 pb-4 rounded-2 mt-5">
-          <div class="mb-3" style="min-width: 110px">
+          <div class="mb-3" style="min-width: 110px; margin: 0 auto;">
             {{ if .Params.image }}
             {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "rounded-circle" "Command" "Fill" "Size" "80x80") }}
             {{ else }}
             <i class="far fa-user-circle mb-1" style="font-size:82px"></i>
             {{ end }}
           </div>
-          <div>
+          <div style="flex: 1;">
             <h3 class="h5 title mb-1"><a href="{{.RelPermalink}}" class="text-dark">{{ .Title }}</a></h3>
             <div class="content">{{ .Content | truncate 135}}</div>
             <ul class="list-inline social-icons justify-content-start mt-3 mb-0">
@@ -45,7 +45,7 @@
 <section class="section">
   <div class="container">
     <div class="row">
-      <div class="col-lg-10 mx-auto">
+      <div class="col-lg-10 col-12 mx-auto">
         <div class="content">{{ .Content }}</div>
       </div>
     </div>
