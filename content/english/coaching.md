@@ -51,7 +51,7 @@ step2:
   title : "🌱 Step 2 — Clarity Sessions"
   subtitle : "(Ongoing Work)"
   steps :
-    title : "For those who choose to continue, Clarity Sessions are where deeper transformation unfolds. <br>These 90-minute sessions are designed to help you:"
+    title : "For those who choose to continue, Clarity Sessions are where deeper transformation unfolds. <br>These 50-minute sessions are designed to help you:"
     content1 : |
       - Release stress and emotional weight at its root
       - Access clarity around decisions, leadership, and personal direction
