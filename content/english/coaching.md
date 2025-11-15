@@ -17,7 +17,7 @@ founders_quote:
 
 how_it_works:
   title : "🌿 How It Works"
-  subtitle : "Each session is a 90-minute, deeply guided space designed to help you slow down, breathe again, and reconnect with what's really going on beneath the surface."
+  subtitle : "Each session is a 50-minute, deeply guided space designed to help you slow down, breathe again, and reconnect with what's really going on beneath the surface."
   steps :
     title : "We'll work together to:"
     content : |
