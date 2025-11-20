@@ -1,5 +1,5 @@
 ---
-title: "Why High-Achievers Mistake Busy-ness for Purpose (and How to Find Real Meaning)"
+title: "Why High-Achievers Mistake Busyness for Purpose (and How to Find Real Meaning)"
 date: 2025-11-11T10:00:00+06:00
 # post image
 #image: "images/blog/busy-ness-vs-purpose.jpg"
@@ -8,7 +8,7 @@ author: "Cristina Coffey"
 # post type (regular/featured)
 type: "regular"
 # meta description
-description: "Busy-ness isn't purpose. Learn how high-achievers escape the endless cycle of motion, recover from burnout, and reconnect with authentic purpose."
+description: "Busyness isn't purpose. Learn how high-achievers escape the endless cycle of motion, recover from burnout, and reconnect with authentic purpose."
 tags: 
   - purpose
   - inner work

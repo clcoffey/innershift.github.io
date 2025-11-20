@@ -42,15 +42,15 @@ The success you achieved by the world's standards feels hollow because the perso
 
 ### The Ghost Life
 
-When the persona is held for too long, you live a ghost life, a **shadow of yourself**.  
-Passion dims, relationships feel transactional, and your body carries the weight of unexpressed truth.
+When the lie of the persona is clung to too long, you begin to live a ghost life, a **shadow of yourself**.  
+Your passion dims, your relationships become transactional, and your body carries the weight of unexpressed truth.
 
 ---
 
 ### The Price of Staying Asleep
 
 Unlived life doesn't just disappear; it stays stuck in the unconscious, erupting later as anxiety, restlessness, depression, or disease. You think you're avoiding discomfort by maintaining the performance, but you are really postponing your own aliveness. 
-Your old self is no longer sufficient to hold the truth trying to emerge.
+The self you built is no longer sufficient to hold the truth trying to emerge. The tight feeling in your chest, the disconnection, the quiet despair; this is not a random phase: it is your inner self demanding to surface.
 
 > “The self you bury will find ways to speak until it is heard.”  
 > — Anonymous
@@ -61,13 +61,13 @@ Your old self is no longer sufficient to hold the truth trying to emerge.
 
 My healing journey began when my body and nervous system forced me to STOP. I learned that the key was not self-improvement but deconstruction.
 
-The InnerShift approach provides a **safe, grounded space** for:
+The InnerShift approach provides a **safe, grounded space** necessary to begin this crucial inner work:
 
 - Uncovering stress and anxiety roots  
 - Integrating old trauma and releasing its grip  
 - Using guided meditation to trace daily triggers  
 
-This is the work of finding out who you really are, facing the shadow, and becoming your authentic self.
+This is the work of finding out who you really are, facing the parts of yourself you've buried (the shadow), and becoming your authentic self.
 
 ---
 
@@ -88,9 +88,10 @@ _**“What part of myself am I ready to let go of and what feelings does it prom
 
 ### Choosing Wholeness
 
-You are suspended between two selves: one fading, one forming.  
-This is authenticity being born.
+You are currently suspended between two selves: one fading, one forming.  
+This is an uncomfortable place where authenticity is being born.
 
+If you are ready to stop performing and embrace your fierce, quiet, embodied truth, the door is open.
 I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to ask questions, tell me about the things that are on your mind, to gently explore what lies beneath the surfaceand and step into your authentic self.
 
 👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)
