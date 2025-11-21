@@ -2,7 +2,7 @@
 title: "Why High-Achievers Mistake Busyness for Purpose (and How to Find Real Meaning)"
 date: 2025-11-11T10:00:00+06:00
 # post image
-#image: "images/blog/busy-ness-vs-purpose.jpg"
+#image: "images/blog/busyness-vs-purpose.jpg"
 # author
 author: "Cristina Coffey"
 # post type (regular/featured)
