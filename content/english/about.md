@@ -14,7 +14,7 @@ founders_quote:
   subtitle: "Founder & Clarity Coach"
 
 leading_from_within:
-  title: "A New Way of Leading — From Within"
+  title1: "A New Way of Leading — From Within"
   content: "My healing journey wasn’t about finding a quick fix. It was about **slowing down**, listening inward, and learning how to meet life differently. <br><br>Through daily meditation, nervous system regulation, and trauma integration work, I moved from survival mode to a way of living that’s grounded, clear, and steady.<br><br>Today, I help others do the same.<br><br>I work with leaders and professionals who carry quiet weight — the stress, pressure, and emotional load that often comes with responsibility. My role is to create a **safe, grounded space** where what feels heavy becomes movable again, and clarity naturally emerges.<br><br>This is about moving past fear, anxiety and emotions that slow you down and making decisions with clarity and authenticity.<br><br>It’s about learning how to **come home to yourself**."
   button:
     enable : true
@@ -23,7 +23,7 @@ leading_from_within:
 
 professional_background:
   enable: true
-  title: "Professional Background"
+  title4: "Professional Background"
   content: |
     Before founding InnerShift, my career spanned nearly two decades of leadership and innovation. I’ve:
     - Served as **Chief Strategy Officer at EpiSensor**, leading business strategy and global growth.
@@ -39,7 +39,7 @@ professional_background:
 
 fun_facts:
   enable: true
-  title: "What I believe"
+  title_fun_facts: "What I believe"
   fact_item:
     - #icon: "fas fa-users"
       counter: "✨"
@@ -56,7 +56,7 @@ fun_facts:
 
 call_to_action:
   enable : true
-  title : "Your Shift Starts Here"
+  title_cta : "Your Shift Starts Here"
   content : "If you see yourself in my story, I invite you to take the first gentle step.<br><br>Our work begins with a **30-minute free Alignment Call** — designed to help you explore what’s beneath the surface and experience the power of slowing down before you commit."
   button:
     enable : true

@@ -36,7 +36,7 @@
       {{with .Params.leading_from_within}}
       <div class="col-lg-9 col-12">
         <div class="bg-white px-4 py-5 px-lg-6 rounded-2">
-          <h2 class="section-title text-center" style="color: #50956D;">{{.title | markdownify}}</h2>
+          <h2 class="section-title text-center" style="color: #50956D;">{{.title1 | markdownify}}</h2>
           <p class="mb-0">{{.content | markdownify}}</p>
         </div>
       </div>
@@ -52,7 +52,7 @@
       {{with .Params.who_we_are}}
       <div class="col-lg-6 col-12">
         <div class="bg-white px-4 py-5 px-lg-6 rounded-2">
-          <h2 class="section-title h3">{{.title | markdownify}}</h2>
+          <h2 class="section-title h3">{{.title2 | markdownify}}</h2>
           <p class="mb-0">{{.content | markdownify}}</p>
         </div>
       </div>
@@ -60,7 +60,7 @@
       {{with .Params.our_mission}}
       <div class="col-lg-6 col-12">
         <div class="bg-white px-4 py-5 px-lg-6 rounded-2">
-          <h2 class="section-title h3">{{.title | markdownify}}</h2>
+          <h2 class="section-title h3">{{.title3 | markdownify}}</h2>
           <p class="mb-0">{{.content | markdownify}}</p>
         </div>
       </div>
@@ -75,7 +75,7 @@
   <div class="container">
     <div class="row justify-content-center">
       <div class="col-lg-8">
-        <h1 class="section-title h2 text-center">{{ .title | markdownify }}</h1>
+        <h2 class="section-title h2 text-center">{{ .title4 | markdownify }}</h2>
         <div class="mb-0">{{ .content | markdownify }}</div>
       </div>
     </div>
@@ -91,7 +91,7 @@
   <div class="container container-delta">
     <div class="row justify-content-center text-center">
       <div class="col-xl-7 col-lg-10 mb-2">
-        <h2 class="section-title ">{{.title | markdownify}}</h2>
+        <h2 class="section-title ">{{.title_fun_facts | markdownify}}</h2>
       </div>
       <div class="col-lg-10">
         <div class="row gy-5 justify-content-center">
@@ -124,7 +124,7 @@
           <div class="mt-3 bg-primary text-white mx-auto rounded-1 shadow h5 mb-5 d-flex align-items-center justify-content-center" style="height:65px;width:65px">
             <i class="{{.icon}}"></i>
           </div>
-          <h3 class="h5 mb-3">{{.title | markdownify}}</h3>
+          <h3 class="h5 mb-3">{{.title_feature_box | markdownify}}</h3>
           <p class="mb-3">{{.content | markdownify}}</p>
         </div>
       </div>
@@ -142,7 +142,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-9 col-md-10 col-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <h2 class="section-title">{{ .title_cta | markdownify }}</h2>
           {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
           {{ if .button.enable }}
           {{ with .button }}
@@ -163,19 +163,19 @@
   <div class="container">
     <div class="row gy-4 justify-content-center">
       <div class="col-xl-3 col-lg-6 mb-5">
-        <h2 class="section-title h3">{{.title | markdownify}}</h2>
+        <h2 class="section-title h3">{{.title_office_culture | markdownify}}</h2>
         <p>{{.content | markdownify}}</p>
       </div>
 
       {{range .images}}
       {{if eq .column "6"}}
       <div class="col-xl-{{.column}} col-lg-6 col-sm-12 col-12">
-        {{ partial "image" (dict "Src" .image "Alt" .title "Size" "850x" "Class" "w-100 rounded-1 h-100 fit-cover") }}
+        {{ partial "image" (dict "Src" .image "Alt" .title_image "Size" "850x" "Class" "w-100 rounded-1 h-100 fit-cover") }}
       </div>
       {{end}}
       {{if eq .column "3"}}
       <div class="col-xl-{{.column}} col-lg-4 col-sm-12 col-12">
-        {{ partial "image" (dict "Src" .image "Alt" .title "Size" "500x" "Class" "w-100 rounded-1 h-100 fit-cover") }}
+        {{ partial "image" (dict "Src" .image "Alt" .title_image "Size" "500x" "Class" "w-100 rounded-1 h-100 fit-cover") }}
       </div>
       {{end}}
       {{end}}
@@ -183,7 +183,7 @@
       {{ with .join_our_team }}
       <div class="col-xl-5 col-lg-10 col-12 align-self-center mx-auto">
         <div class="mt-5 mt-xl-0 text-center text-xl-start">
-          <h2 class="section-title h3">{{ .title | markdownify }}</h2>
+          <h2 class="section-title h3">{{ .title_join_our_team | markdownify }}</h2>
           {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
           {{ if .button.enable }}
           {{ with .button }}
