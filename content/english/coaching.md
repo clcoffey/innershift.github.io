@@ -16,10 +16,10 @@ founders_quote:
   name : "Cristina Coffey"
 
 how_it_works:
-  title : "🌿 How It Works"
+  title_how_it_works : "🌿 How It Works"
   subtitle : "Each session is a 50-minute, deeply guided space designed to help you slow down, breathe again, and reconnect with what's really going on beneath the surface."
   steps :
-    title : "We'll work together to:"
+    title1 : "We'll work together to:"
     content : |
       - Identify the triggers and patterns behind your stress  
       - Create a safe space where your system can finally exhale  
@@ -32,10 +32,10 @@ how_it_works:
     link : "https://cal.com/cristina-coffey"
 
 step1:
-  title : "🪷 Step 1 — The Alignment Call"
+  title_step1 : "🪷 Step 1 — The Alignment Call"
   subtitle : "(Free Introductory Session)"
   steps :
-    title : "If this is your first time working with me, we'll begin with an Alignment Call. <br>This 30-minute session is:"
+    title_step1_1 : "If this is your first time working with me, we'll begin with an Alignment Call. <br>This 30-minute session is:"
     content1 : |
       - A gentle exploration of what brings you here
       - A chance to experience the work in real time
@@ -48,10 +48,10 @@ step1:
     link : "https://cal.com/cristina-coffey/alignment"
 
 step2:
-  title : "🌱 Step 2 — Clarity Sessions"
+  title_step2 : "🌱 Step 2 — Clarity Sessions"
   subtitle : "(Ongoing Work)"
   steps :
-    title : "For those who choose to continue, Clarity Sessions are where deeper transformation unfolds. <br>These 50-minute sessions are designed to help you:"
+    title_step2_2 : "For those who choose to continue, Clarity Sessions are where deeper transformation unfolds. <br>These 50-minute sessions are designed to help you:"
     content1 : |
       - Release stress and emotional weight at its root
       - Access clarity around decisions, leadership, and personal direction
@@ -64,7 +64,7 @@ step2:
 # Features
 features:
   enable : true
-  title : "✨ Why This Work Is Different"
+  title_feature : "✨ Why This Work Is Different"
  # content : "Whether you're carrying the weight of leadership or navigating personal challenges, our work together is designed to help you:"
   feature_item:
     # feature item loop
@@ -96,7 +96,7 @@ features:
 testimonial1:
   enable : true
   heading : "🕊 Client Words"
-  title : "One of the most powerful experiences I’ve ever had."
+  title_testimonial : "One of the most powerful experiences I’ve ever had."
   content : "I recently had a session with Cristina Coffey, and honestly, it was one of the most powerful experiences I’ve ever had. <br><br>From the moment we began, Cristina created a space that felt deeply safe, grounded, and sacred. She guided me with such warmth and intuition that insights surfaced I didn’t even realize were still within me. Her ability to tune in, hold space, and guide with compassion is truly extraordinary.<br><br>I’ve done a lot of coaching and courses over the years, but this session stands out as one of the most transformative things I’ve ever done. I left feeling lighter, clearer, and profoundly grateful.<br><br>If you have the chance to work with Cristina, do it. You’ll come away changed in the best way possible. Ten stars from me."
   name : "Karen Dwyer - The MS Coach"
   stars : "⭐⭐⭐⭐⭐"
@@ -104,7 +104,7 @@ testimonial1:
 ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Begin Your InnerShift"
+  title_cta : "Begin Your InnerShift"
   content : "Book a 30-minute Free Alignment Call and create space for real change."
   button:
     enable : true

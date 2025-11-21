@@ -49,14 +49,14 @@
     <div class="row gy-5 justify-content-center">
       {{ with .Params.how_it_works }}
   <div class="col-lg-8 col-md-8 text-center mx-auto mb-5">
-    <h2 class="section-title mt-3 mb-2">{{ .title | markdownify }}</h2>
+    <h2 class="section-title mt-3 mb-2">{{ .title_how_it_works | markdownify }}</h2>
     <p class="mb-0" style="font-size: 18px;">{{ .subtitle | markdownify }}</p>
   </div>
 
   {{ with .steps }}
   <div class="col-lg-8 col-12">
     <div class="bg-white px-3 px-lg-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7;">
-      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title | markdownify }}</p>
+      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title1 | markdownify }}</p>
       <div style="font-size: 18px; line-height: 2; padding-left: 1rem; padding-left: calc(1rem + 2vw);">
         {{ .content | markdownify }}
       </div>
@@ -82,14 +82,14 @@
     <div class="row gy-5 justify-content-center">
       {{ with .Params.step1 }}
   <div class="col-lg-8 text-center mx-auto">
-    <h2 class="section-title mt-3 mb-2" style="color: #000000;">{{ .title | markdownify }}</h2>
+    <h2 class="section-title mt-3 mb-2" style="color: #000000;">{{ .title_step1 | markdownify }}</h2>
     <p class="mb-0" style="font-size: 18px;">{{ .subtitle | markdownify }}</p>
   </div>
 
   {{ with .steps }}
   <div class="col-lg-8 col-12">
     <div class="bg-white px-3 px-lg-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7;">
-      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title | markdownify }}</p>
+      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title_step1_1 | markdownify }}</p>
       <div style="font-size: 18px; line-height: 2; padding-left: 1rem; padding-left: calc(1rem + 2vw);">
         {{ .content1 | markdownify }}
       </div>
@@ -134,14 +134,14 @@
     <div class="row gy-5 justify-content-center">
       {{ with .Params.step2 }}
   <div class="col-lg-8 text-center mx-auto">
-    <h2 class="section-title mt-3 mb-2" style="color: #000000;">{{ .title | markdownify }}</h2>
+    <h2 class="section-title mt-3 mb-2" style="color: #000000;">{{ .title_step2 | markdownify }}</h2>
     <p class="mb-0" style="font-size: 18px;">{{ .subtitle | markdownify }}</p>
   </div>
 
   {{ with .steps }}
   <div class="col-lg-8 col-12">
     <div class="bg-white px-3 px-lg-4 py-5 px-lg-6 rounded-2" style="font-size: 18px; line-height: 1.7; border: 1px solid #8BB69A; border-radius: 12px;">
-      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title | markdownify }}</p>
+      <p class="mb-3" style="font-size: 18px; padding-left: 1rem; padding-left: calc(1rem + 2vw);">{{ .title_step2_2 | markdownify }}</p>
       <div style="font-size: 18px; line-height: 2; padding-left: 1rem; padding-left: calc(1rem + 2vw);">
         {{ .content1 | markdownify }}
       </div>
@@ -169,7 +169,7 @@
     <div class="container">
       <div class="row justify-content-center">
         <div class="col-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <h2 class="section-title">{{ .title_feature | markdownify }}</h2>
           <p class="mb-4">{{ .content | markdownify }}</p>
         </div>
         {{ range .feature_item }}
@@ -204,7 +204,7 @@
         </div>
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-12 text-left">
-        <h4 class="mb-4"><i>{{ .title | markdownify }}</i></h4>
+        <h4 class="mb-4"><i>{{ .title_testimonial | markdownify }}</i></h4>
         <p><i>{{ .content | markdownify }}</i></p>
         <p><b>{{ .name | markdownify }}</b></p>
         <h6>{{ .stars | markdownify }}</h6>
@@ -223,7 +223,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-lg-9 col-md-10 col-12 text-center">
-          <h2 class="section-title">{{ .title | markdownify }}</h2>
+          <h2 class="section-title">{{ .title_cta | markdownify }}</h2>
           {{with .content }}<p class="mb-4">{{ . | markdownify }}</p>{{ end }}
           {{ if .button.enable }}
           {{ with .button }}
