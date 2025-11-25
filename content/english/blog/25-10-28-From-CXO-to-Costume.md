@@ -2,7 +2,7 @@
 title: "From CXO to Costume: When Your Identity Is Built on Achievements, Who Are You When the Applause Stops?"
 date: 2025-10-28T10:00:00+06:00
 # post image
-image: "images/blog/from-ceo-to-costume.jpg"
+#image: "images/blog/from-ceo-to-costume.jpg"
 # author
 author: "Cristina Coffey"
 # post type (regular/featured)
@@ -56,7 +56,6 @@ It’s the version of you that is polished, productive, and rewarded by society.
 
 ### The Weight of Identification
 
-
 The pressure that high-achievers carry isn't just about workload; it’s the sheer exhaustion of maintaining a false identity. The problem arises when adaptation becomes identification. When you mistake the role for who you are, and the longer you wear that mask, the heavier it becomes. 
 
 That deep ache you feel—that vague dissatisfaction that no promotion or amount of money can fill—often presages [burnout](/blog/burnout-signal/) or the slow hollowing-out that other posts call the [success mask](/blog/success-mask-burnout/). The authentic self can suffocate beneath decades of pretense.
@@ -69,7 +68,7 @@ That deep ache you feel—that vague dissatisfaction that no promotion or amount
 ### InnerShift: Unveiling the Authentic Self
 
 
-The key to moving beyond this hollow feeling is turning the outer journey of achievement inward. My approach creates a **safe, grounded space** where we begin the process of **unbecoming** everything you never trylly were — and where you learn to trade the costume for presence and purpose.
+The key to moving beyond this hollow feeling is turning the outer journey of achievement inward. My approach creates a **safe, grounded space** where we begin the process of **unbecoming** everything you never trylly were and where you learn to trade the costume for presence and purpose.
 
 This work is designed to help you:
 
@@ -103,6 +102,6 @@ _**“What would it take to release the mask, even just a little?”**_
 
 If you feel the weight of the costume, know: this moment is not a breakdown—it’s a breakthrough. Your shift begins when you choose to pause and listen inward.
 
-I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to ask questions, tell me about the things that are on your mind, explore what’s beneath the surface and experience the InnerShift process before you commit.
+I offer a **30-minute free Alignment Call**, a gentle, no-pressure session to ask questions, tell me about the things that are on your mind, explore what’s beneath the surface and experience the InnerShift process before you commit.
 
 👉 [Book Your Free Alignment Call](https://cal.com/cristina-coffey/alignment)

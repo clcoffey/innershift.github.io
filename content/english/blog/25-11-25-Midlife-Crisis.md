@@ -2,7 +2,7 @@
 title: "The Midlife Crisis is a Lie: It's Not a Breakdown, It's a Breakthrough"
 date: 2025-11-25T10:00:00+06:00
 # post image
-image: "images/blog/midlife-breakthrough.jpg"
+#image: "images/blog/midlife-breakthrough.jpg"
 # author
 author: "Cristina Coffey"
 # post type (regular/featured)
@@ -29,7 +29,7 @@ The world calls it a midlife crisis: restlessness, doubt, sudden shifts.
 Society whispers about decline, failure, or instability.  
 
 But what if this moment isn't a crisis at all?  
-What if it's a **breakthrough** — a clearing your soul has been calling for all along?
+What if it's a **breakthrough**, a clearing your soul has been calling for all along?
 
 ---
 
@@ -49,7 +49,7 @@ What if it's a **breakthrough** — a clearing your soul has been calling for al
 ### The Misunderstood Moment
 
 For decades, we've been told that the midlife upheaval is a breakdown.  
-But the confusion, anxiety, and restlessness you feel are **not punishment** — they are preparation.  
+But the confusion, anxiety, and restlessness you feel are **not punishment**, they are preparation.  
 
 Carl Jung described this phase as the ego grappling with the soul's awakening. What feels like collapse is often the clearing your life needs so something more authentic can emerge.
 
@@ -74,7 +74,7 @@ Your own restlessness, anxieties, and dissatisfaction are not random — they ar
 ### The Shift from Ego to Essence
 
 The first half of life builds the ego which is the functional self.  
-The second half, Jung explained, is about **Individuation** — becoming who you truly are, not who you were told to be.  
+The second half, Jung explained, is about **Individuation**: becoming who you truly are, not who you were told to be.  
 
 This requires turning inward, dismantling old identities, and creating space for the self that is emerging.
 
@@ -137,4 +137,4 @@ I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to
 
 👉 [Book your free 30-minute Alignment Call](https://cal.com/cristina-coffey/alignment)
 
-Ready for a deeper practice? Explore the Meditation Course: [/meditation-course/](/meditation-course/)
+Ready for a deeper practice? Explore the [Meditation Course](/meditation-course/).

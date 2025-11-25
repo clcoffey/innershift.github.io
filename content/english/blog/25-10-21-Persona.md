@@ -2,7 +2,7 @@
 title: "The Lie of the Persona: Why Your “Success Mask” Is Causing Your Burnout"
 date: 2025-10-21T10:30:00+06:00
 # post image
-image: "images/blog/success-mask.jpg"
+#image: "images/blog/success-mask.jpg"
 # author
 author: "Cristina Coffey"
 # post type (regular/featured)
@@ -75,7 +75,7 @@ So even when we “have it all,” it can feel like we have nothing at all.
 
 Eventually, the persona stops working.  
 Restlessness, dissatisfaction, and subtle anxiety signal that the performance is no longer sustainable.  
-Traditional coping mechanisms — busyness, overachievement, distraction — stop working because the issue isn’t outside: it’s deep within the self we’ve constructed.
+Traditional coping mechanisms: busyness, overachievement, distraction — stop working because the issue isn’t outside: it’s deep within the self we’ve constructed.
 
 Burnout in this context is not laziness or weakness.  
 It’s your soul knocking on the door, saying: *“Come back to me.”*
