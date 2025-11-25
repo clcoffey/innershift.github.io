@@ -1,5 +1,5 @@
 ---
-title: "Herd Morality: How Societal Expectations Stole Your Authentic Energy (and How to Get It Back)"
+title: "Herd Morality: How Societal Expectations Stole Your Authenticity (and How to Get It Back)"
 date: 2025-11-04T10:00:00+06:00
 # post image
 #image: "images/blog/herd-morality.jpg"

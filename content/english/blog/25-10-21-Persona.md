@@ -1,5 +1,5 @@
 ---
-title: "The Lie of the Persona: Why Your “Success Mask” Is Causing Your Burnout"
+title: "The Persona Lie: Why Your “Success Mask” Is Causing Your Burnout"
 date: 2025-10-21T10:30:00+06:00
 # post image
 #image: "images/blog/success-mask.jpg"

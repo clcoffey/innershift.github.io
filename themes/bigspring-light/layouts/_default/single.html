@@ -10,7 +10,7 @@
         {{ if .Params.image }}
           {{ partial "image" (dict "Src" .Params.image "Alt" .Title "Class" "rounded-2 w-100 mb-5") }}
         {{ end }}
-        <h2>{{ .Title }}</h2>
+        <h1>{{ .Title }}</h1>
         <div class="mt-4 content">{{.Content}}</div>
         {{ with site.GetPage (string .Params.Author | urlize | lower) }}
         {{if .Title}}

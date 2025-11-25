@@ -1,5 +1,5 @@
 ---
-title: "The Unseen Consequence: Why Success by the World's Standards Can Still Feel Hollow"
+title: "The Unseen Consequence: Why Success Can Still Feel Hollow"
 date: 2025-11-18T10:00:00+06:00
 # post image
 #image: "images/blog/the-unseen-consequence.jpg"

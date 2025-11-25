@@ -1,5 +1,5 @@
 ---
-title: "From CXO to Costume: When Your Identity Is Built on Achievements, Who Are You When the Applause Stops?"
+title: "When Your Identity Is Built on Achievements, What's Left When the Applause Stops?"
 date: 2025-10-28T10:00:00+06:00
 # post image
 #image: "images/blog/from-ceo-to-costume.jpg"

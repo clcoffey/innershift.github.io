@@ -1,5 +1,5 @@
 ---
-title: "Why High-Achievers Mistake Busyness for Purpose (and How to Find Real Meaning)"
+title: "Why High-Achievers Mistake Busyness for Purpose and How to Find Real Meaning"
 date: 2025-11-11T10:00:00+06:00
 # post image
 #image: "images/blog/busyness-vs-purpose.jpg"
@@ -16,7 +16,7 @@ tags:
   - leadership
   - personal growth
 reading_time: "4 min"
-slug: busy-ness-vs-purpose
+slug: busyness-vs-purpose
 # post draft
 draft: false
 ---
