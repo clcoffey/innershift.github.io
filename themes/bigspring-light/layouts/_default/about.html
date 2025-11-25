@@ -13,7 +13,16 @@
         </div>
       </div>
       <div class="col-lg-6 col-12" style="max-width: 600px; margin: 0 auto;">
-        {{ partial "image" (dict "Src" .image "alt" "About image" "Class" "w-100 rounded-1") }}
+        {{ $about := . }}
+        {{ with $about.image }}
+          {{ $imgPath := . }}
+          {{ $res := resources.Get $imgPath }}
+          {{ if $res }}
+            <img src="{{ $res.RelPermalink }}" alt="{{ with $about.alt }}{{ . }}{{ else }}About — Cristina Coffey{{ end }}" class="w-100 rounded-1" />
+          {{ else }}
+            <img src="{{ $imgPath | relURL }}" alt="{{ with $about.alt }}{{ . }}{{ else }}About — Cristina Coffey{{ end }}" class="w-100 rounded-1" />
+          {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>
@@ -27,7 +36,16 @@
       {{with .Params.founders_quote}}
       <div class="col-lg-8 text-center mx-auto mb-5">
         <p class="lead text-dark">{{.content | markdownify}}</p>
-        {{ partial "image" (dict "Src" .image "Alt" .name "Size" "100x" "Class" "rounded-circle mt-3") }}
+        {{ $f := . }}
+        {{ with $f.image }}
+          {{ $imgPath := . }}
+          {{ $res := resources.Get $imgPath }}
+          {{ if $res }}
+            <img src="{{ $res.RelPermalink }}" alt="{{ with $f.alt }}{{ . }}{{ else }}{{ $f.name }}{{ end }}" class="rounded-circle mt-3" style="width:100px; height:100px; object-fit:cover;" />
+          {{ else }}
+            <img src="{{ $imgPath | relURL }}" alt="{{ with $f.alt }}{{ . }}{{ else }}{{ $f.name }}{{ end }}" class="rounded-circle mt-3" style="width:100px; height:100px; object-fit:cover;" />
+          {{ end }}
+        {{ end }}
         <h3 class="section-title h5 mt-3 mb-2">{{.name | markdownify}}</h3>
         <p class="mb-0">{{.subtitle | markdownify}}</p>
       </div>
@@ -167,18 +185,30 @@
         <p>{{.content | markdownify}}</p>
       </div>
 
-      {{range .images}}
-      {{if eq .column "6"}}
+        {{ range .images }}
+      {{ if eq .column "6" }}
       <div class="col-xl-{{.column}} col-lg-6 col-sm-12 col-12">
-        {{ partial "image" (dict "Src" .image "Alt" .title_image "Size" "850x" "Class" "w-100 rounded-1 h-100 fit-cover") }}
+        {{ $img := . }}
+        {{ with $img.image }}
+          {{ $imgPath := . }}
+          {{ $res := resources.Get $imgPath }}
+          {{ if $res }}
+            <img src="{{ $res.RelPermalink }}" alt="{{ with $img.alt }}{{ . }}{{ else }}{{ $img.title_image }}{{ end }}" class="w-100 rounded-1 h-100 fit-cover" />
+          {{ else }}
+            <img src="{{ $imgPath | relURL }}" alt="{{ with $img.alt }}{{ . }}{{ else }}{{ $img.title_image }}{{ end }}" class="w-100 rounded-1 h-100 fit-cover" />
+          {{ end }}
+        {{ end }}
       </div>
-      {{end}}
-      {{if eq .column "3"}}
+      {{ end }}
+      {{ if eq .column "3" }}
       <div class="col-xl-{{.column}} col-lg-4 col-sm-12 col-12">
-        {{ partial "image" (dict "Src" .image "Alt" .title_image "Size" "500x" "Class" "w-100 rounded-1 h-100 fit-cover") }}
+        {{ $img := . }}
+        {{ with $img.image }}
+          <img src="{{ . | relURL }}" alt="{{ with $img.alt }}{{ . }}{{ else }}{{ $img.title_image }}{{ end }}" class="w-100 rounded-1 h-100 fit-cover" />
+        {{ end }}
       </div>
-      {{end}}
-      {{end}}
+      {{ end }}
+      {{ end }}
       
       {{ with .join_our_team }}
       <div class="col-xl-5 col-lg-10 col-12 align-self-center mx-auto">
