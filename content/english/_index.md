@@ -3,7 +3,7 @@
 banner:
   title_first : "More than Coaching."
   title_second : " A Space for Transformation"
-  image : "images/banner-art.svg"
+  #image : "images/banner-art.svg"
   content : "A coaching practice incorporating guided meditation for leaders and professionals who are ready to move beyond anxiety and burnout, integrate deep stress patterns, and reconnect with their authentic energy, clarity, and purpose."
   button:
     enable : true
@@ -62,11 +62,13 @@ testimonial2:
   name : "Bev Porrino - Neuroconnective Therapist"
   stars : "⭐⭐⭐⭐⭐"
   image : images/Bev-Porrino.png
+  alt: "Bev Porrino — Neuroconnective Therapist testimonial"
 
 ######################### About me #####################
 about_me:
   enable : true
   image : images/cristina-coffey.jpg
+  alt: "Cristina Coffey — Founder & Clarity Coach"
   title : "From Burnout to Balance"
   content : "For years, I thrived in high-performance leadership roles. On paper, I had everything. Inside, I was burning out. A year ago, I collapsed. My body was shutting down, I felt a deep pain in my chest that was getting heavier every day. I couldn't breathe, I couldn't function anymore, my mind was exhausted, and my spirit felt broken. <br><br>Through deep inner work, I found my way back from exhaustion and anxiety to clarity, from pressure to presence. Chronic conditions like eczema and psoriasis faded without medication. My stress lifted. My energy returned. <br><br>The key was a meditation practice that allowed me to trace daily triggers back to their roots, integrate old trauma, and release the grip it had on my life. <br><br>Today, I help others create their own InnerShift. My approach creates a safe, grounded space where people can uncover the real roots of stress and anxiety, integrate what's been holding them back, and reconnect with their own clarity."
   button:
