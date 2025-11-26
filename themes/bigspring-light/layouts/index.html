@@ -16,7 +16,15 @@
         {{ end }}
         {{ end }}
 
-        {{with .image}}<img src="{{ . | relURL }}" alt="" class="img-fluid mt-5" style="max-width: 100%; height: auto;">{{end}}
+        {{with .image}}
+          {{ $imgPath := . }}
+          {{ $res := resources.Get $imgPath }}
+          {{ if $res }}
+            <img src="{{ $res.RelPermalink }}" alt="" class="img-fluid mt-5" style="max-width: 100%; height: auto;">
+          {{ else }}
+            <img src="{{ $imgPath | relURL }}" alt="" class="img-fluid mt-5" style="max-width: 100%; height: auto;">
+          {{ end }}
+        {{ end }}
       </div>
     </div>
   </div>
@@ -108,7 +116,13 @@
       <div class="col-lg-3 col-md-6 col-sm-12 col-12 mb-2 mb-md-0">
         {{ $t := . }}
         {{ with .image }}
-          <img src="{{ . | relURL }}" alt="{{ with $t.alt }}{{ . }}{{ else }}Bev Porrino — testimonial{{ end }}" class="img-fluid w-100" />
+          {{ $imgPath := . }}
+          {{ $res := resources.Get $imgPath }}
+          {{ if $res }}
+            <img src="{{ $res.RelPermalink }}" alt="{{ with $t.alt }}{{ . }}{{ else }}Bev Porrino — testimonial{{ end }}" class="img-fluid w-100" />
+          {{ else }}
+            <img src="{{ $imgPath | relURL }}" alt="{{ with $t.alt }}{{ . }}{{ else }}Bev Porrino — testimonial{{ end }}" class="img-fluid w-100" />
+          {{ end }}
         {{ end }}
       </div>
     </div>
@@ -127,7 +141,13 @@
       <div class="col-lg-4 col-md-6 col-sm-12 col-12 mb-4 mb-md-0">
         {{ $about := . }}
         {{ with $about.image }}
-          <img src="{{ . | relURL }}" alt="{{ with $about.alt }}{{ . }}{{ else }}Cristina Coffey — Founder & Clarity Coach{{ end }}" class="img-fluid w-100" />
+          {{ $imgPath := . }}
+          {{ $res := resources.Get $imgPath }}
+          {{ if $res }}
+            <img src="{{ $res.RelPermalink }}" alt="{{ with $about.alt }}{{ . }}{{ else }}Cristina Coffey — Founder & Clarity Coach{{ end }}" class="img-fluid w-100" />
+          {{ else }}
+            <img src="{{ $imgPath | relURL }}" alt="{{ with $about.alt }}{{ . }}{{ else }}Cristina Coffey — Founder & Clarity Coach{{ end }}" class="img-fluid w-100" />
+          {{ end }}
         {{ end }}
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-12">
