@@ -94,7 +94,7 @@ call_to_action_newsletter:
   ##################### Call to action #####################
 call_to_action:
   enable : true
-  title : "Begin Your InnerShift"
+  title_cta1 : "Begin Your InnerShift"
   content : "Book a 30-minute free Alignment Call and create space for real change."
   button:
     enable : true
