@@ -61,7 +61,7 @@ testimonial2:
   content : "I had a wonderful session with Cristina Coffee. I didn’t know what to expect apart from hoping to get some relief from stress. ‘Life has been a lot of late.' <br><br>It was way more than relaxation. I’ve had a lot of meditations and therapies over the years, but this was something different. I loved the way she guided me into a restful place and then helped me to explore where I was physically holding the stress. <br><br>I can’t begin to tell you how this helped me to connect with my body. I went so deep and managed to release tension that I’ve been holding for weeks probably years. I left the session feeling very light in body and found that I could breathe a lot easier. Thank you. I would highly recommend."
   name : "Bev Porrino - Neuroconnective Therapist"
   stars : "⭐⭐⭐⭐⭐"
-  image : images/Bev-Porrino.png
+  image : /images/Bev-Porrino.png
   alt: "Bev Porrino — Neuroconnective Therapist testimonial"
 
 ######################### About me #####################
