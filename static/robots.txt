@@ -1,0 +1,6 @@
+# Allow all search engine bots to crawl your site
+User-agent: *
+Allow: /
+
+# Link to your sitemap so search engines can discover all pages
+Sitemap: https://innershift.living/sitemap.xml

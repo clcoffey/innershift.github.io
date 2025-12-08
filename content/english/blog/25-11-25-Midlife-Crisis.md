@@ -137,4 +137,4 @@ I offer a **30-minute free Alignment Call** — a gentle, no-pressure session to
 
 👉 [Book your free 30-minute Alignment Call](https://cal.com/cristina-coffey/alignment)
 
-Ready for a deeper practice? Explore the [Meditation Course](/meditation-course/).
+<!-- Ready for a deeper practice? Explore the [Meditation Course](/meditation-course/). -->

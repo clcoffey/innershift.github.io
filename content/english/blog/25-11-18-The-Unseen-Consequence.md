@@ -97,4 +97,4 @@ If you're ready to stop performing and begin to live from a deeper place, the do
 
 👉 [Book your free 30-minute Alignment Call](https://cal.com/cristina-coffey/alignment)
 
- Want a longer course of practice? Learn about the cohort format and practical meditations on the [Meditation Course](/meditation-course/) page.
+ <!-- Want a longer course of practice? Learn about the cohort format and practical meditations on the [Meditation Course](/meditation-course/) page. -->
