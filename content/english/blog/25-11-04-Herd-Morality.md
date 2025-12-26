@@ -60,7 +60,7 @@ If your deepest beliefs about worth and purpose are inherited, not chosen, you l
 
 ### Reclaiming Your Sovereignty
 
-The InnerShift process helps you move beyond the script and reclaim your inner authority. This is the same path that helps people [recover from burnout](https://innershift.vercel.app/blog/burnout-signal/), [break free from the costume of success](https://innershift.vercel.app/blog/from-ceo-to-costume/), and [reconnect with authentic purpose instead of endless busyness](https://innershift.vercel.app/blog/busy-ness-vs-purpose/).
+The InnerShift process helps you move beyond the script and reclaim your inner authority. This is the same path that helps people [recover from burnout](https://innershift.vercel.app/blog/burnout-signal/), [break free from the costume of success](https://innershift.vercel.app/blog/from-ceo-to-costume/), and [reconnect with authentic purpose instead of endless busyness](https://innershift.vercel.app/blog/busyness-vs-purpose/).
 
 This process begins by recognizing that real clarity begins when we pause and turn inward. We work together to:
 
