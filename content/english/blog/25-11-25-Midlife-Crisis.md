@@ -113,7 +113,7 @@ Here’s a gentle way to connect with your own authentic self:
 5. Ask yourself softly: *“What do I need to see or release right now?”*
 
 🪷 *Optional journaling prompt:*  
-_**“What would it take to see this moment not as a crisis, but as an invitation to emerge into my authentic self?”**_
+_**“What if this moment isn't a crisis, but a stepping stone towards my goal? What can I learnfrom this that will serve me later?”**_
 
 This small pause is where transformation begins.
 
